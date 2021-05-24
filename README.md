@@ -27,7 +27,7 @@ For visualizations, I calculated 7, 30 and 365 days rolling averages to show the
 | src | Folder containing the scripts |
 | src/sentiment.py | Sentiment analysis script |
 | data/ | Folder containing input data for the script |
-| data/abcnews-date-text.csv | headlines dataset |
+| data/abcnews-date-text.rar | archived headlines dataset |
 | README.md | Description of the assignment and the instructions |
 | create_sentiment_venv.bash | bash file for creating a virtual environmment |
 | kill_sentiment_venv.bash | bash file for removing a virtual environment |
@@ -68,6 +68,10 @@ $ cd cds-language_Assignment_3
 #5 Create virtual environment with its dependencies and activate it
 $ bash create_sentiment_venv.sh
 $ source ./sentiment/bin/activate
+
+#6 Unzip the CSV file in data folder
+$ cd data
+$ unzip abcnews-date-text.zip
 
 ``` 
 
