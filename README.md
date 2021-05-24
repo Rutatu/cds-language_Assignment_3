@@ -20,14 +20,15 @@ For visualizations, I calculated 7, 30 and 365 days rolling averages to show the
 
 | File | Description |
 | --- | --- |
+| data/ | Folder containing input data for the script |
+| data/abcnews-date-text.rar | archived headlines dataset |
 | output | Folder containing files produced by the scripts |
 | output/weekly_sentiment.png | a plot displaying 7-days rolling average of sentiment scores |
 | output/monthly_sentiment.png | a plot displaying 30-days rolling average of sentiment scores|
 | output/combined_sentiment.png | a plot displaying 1, 7, 30  and 365-days rolling averages of sentiment scores |
 | src | Folder containing the scripts |
 | src/sentiment.py | Sentiment analysis script |
-| data/ | Folder containing input data for the script |
-| data/abcnews-date-text.rar | archived headlines dataset |
+| LICENSE |  A software license defining what other users can and can't do with the source code |
 | README.md | Description of the assignment and the instructions |
 | create_sentiment_venv.bash | bash file for creating a virtual environmment |
 | kill_sentiment_venv.bash | bash file for removing a virtual environment |
@@ -78,17 +79,14 @@ $ unzip abcnews-date-text.zip
 Run the code:
 
 ```
-#6 Navigate to the directory of the script
+#7 Navigate to the directory of the script
 $ cd ../src
 
-#7 Run the code 
+#8 Run the code 
 $ python sentiment.py
 
-#8 To remove the newly created virtual environment
+#9 To remove the newly created virtual environment
 $ bash kill_sentiment_venv.sh
-
-#9 To find out possible optional arguments for the script
-$ python sentiment.py --help
 
  ```
 
