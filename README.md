@@ -39,8 +39,10 @@ For visualizations, I calculated 7, 30 and 365 days rolling averages to show the
 The dataset used (CSV single file) contains 1195191 news headlines sourced from the reputable Australian news source ABC (Australian Broadcasting Corporation). The headlines were published over a period of eighteen years: Start Date: 2003-02-19 ; End Date: 2020-12-31
 
 The column structure of the CSV file is the following:
-publish_date: Date of publishing for the article in yyyyMMdd format
-headline_text: Text of the headline in Ascii , English , lowercase
+| Column | Description |
+| --- | --- |
+| publish_date | Date of publishing for the article in yyyyMMdd format |
+| headline_text | Text of the headline in Ascii , English , lowercase |
 
 Link to data: https://www.kaggle.com/therohk/million-headlines
 
