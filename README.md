@@ -79,7 +79,7 @@ Run the code:
 
 ```
 #6 Navigate to the directory of the script
-$ cd src
+$ cd ../src
 
 #7 Run the code 
 $ python sentiment.py
