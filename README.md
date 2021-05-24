@@ -93,6 +93,6 @@ I hope it worked!
 
 The goal of sentiment analysis is to extract computationally the feeling that a text conveys. This task might seem highly subjective, but when there is a large amount of text that is beyond the capacity of human readers, automated sentiment analysis can be helpful. This project showed that dictionary-based approach can be used to get insight into changing emotional valence of the news headlines. Results are highly dependent on the choice of the dictionary, therefore, the dictionary must be chosen carefully.
 
-The two output plots, 'weekly_sentiment' and 'monthly_sentiment', showed
+The three output plots show the fluctuating general trend throughout 18 years with a few more specific shorter trends. Years 2013-2015 show the highest peaks of positive sentiment scores, which started to increase in year 2012 after a continuous main downward trend since 2003. The headlines sentiment scores started steadily decreasing again after 2016. Such observations reflect that Australian news source ABC News has been publishing both negative and positive news throughout the years. It indicated that ABC News´ headlines are not designed to convey only one kind of emotion - it is more realistic, portraying variety of life events with different emotional significance. To interpret such trends better, we would need to investigate the life events in Autralia in the corresponding years.
 
-Write a short summary (no more than a paragraph) describing what the two plots show. You should mention the following points: 1) What (if any) are the general trends? 2) What (if any) inferences might you draw from them?
+
